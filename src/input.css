@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-text{
+    @apply relative px-5 py-2 border-[1px] border-[#C1BCB6] rounded-full text-lg font-medium font-sans overflow-hidden
+}
+
+.navText-hover{
+    @apply relative font-extralight z-10 group-hover:z-20 group-hover:text-white transition-all duration-300
+}
+.moving-text{
+    @apply inline-block text-[8vw] font-Arial font-bold
+}
+.moving-textCicel{
+    @apply h-[5vw] w-[5vw] inline-block bg-[#FE330A] rounded-full
+}
+.scrolling-text{
+    @apply whitespace-nowrap inline-block animate-textmove
+}
+.sceound-animation-div{
+    @apply h-72 w-72 rounded-[50%] sm:h-80 sm:w-80  md:h-96 md:w-96  lg:h-[420px] lg:w-[420px] xl:h-[500px] xl:w-[500px]
+}
+.part2-h1{
+    @apply w-[full] md:w-[55vw] text-[30px] md:text-[50px]  lg:text-[60px] 2xl:text-[85px] font-bold md:font-[650]  2xl:font-semibold tracking-tightest leading-8 sm:leading-10 md:leading-[53px]  lg:leading-[60px]  2xl:leading-[85px]
+}
+.hover-imgdiv{
+    @apply h-[120px] w-full relative px-5 py-7 flex items-center justify-between overflow-hidden
+}
+.fixed-img {
+    @apply w-[24vw] aspect-1/2 fixed z-[99] left-[50%] top-[25%] rounded-xl cursor-pointer hidden group-hover:block
+}
+.hover-imgdiv-hr{
+    @apply  border-[0.5px] border-gray-400 opacity-70
+}
+.service-contant-paragrap{
+    @apply text-[#D7D1CB] text-sm md:text-base xl:text-xl leading-4 md:leading-5 xl:leading-5
+}
+.swiper-slide{
+    @apply px-3  w-[70%] md:w-[40%] lg:w-[25vw] border-l-[0.5px] border-[#a1a1a1]
+}
+.swiper-img{
+    @apply mb-4 scale-95
+}
+.swiper-para{
+    @apply leading-5 text-sm
+}

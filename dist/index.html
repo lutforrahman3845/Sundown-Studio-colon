@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundown Studio</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icon.png" sizes="16X16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="h-full w-full  box-border scroll-smooth">
+    <main class="relative mx-auto bg-[#EFEAE3] overflow-x-hidden z-10">
+        <!-- Hearder -->
+        <header>
+            <nav class="w-full px-6 pt-[1.7vw] md:px-8  flex items-center justify-between ">
+                <!-- logo -->
+                <div>
+                    <img class="h-14 md:h-16" src="./assets/logo.png" alt="" srcset="">
+                </div>
+                <!-- modile-nav -->
+                <div>
+                    <div class="mnav__div relative px-6 py-2  z-10 flex gap-1 border-[1px] border-[#C1BCB6] rounded-full md:hidden">
+                        <i class="mnav__icon  ri-menu-line"></i>
+                        <h3>Menu</h3>
+                    </div>
+                </div>
+                <!-- Toggle Mobile Nav -->
+                <div class="mnav h-80 w-full absolute bg-[#f1e9e0] rounded-b-3xl shadow-xl left-0 -top-[330px] transition-all duration-1000 md:hidden">
+                    <div class="absolute bottom-10 right-6 flex flex-col text-right text-6xl font-bold" >
+                        <a href="#">WORK</a>
+                        <a href="#">STUDIO</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>
+                <!-- Desktop Nav -->
+                <div class=" hidden gap-2 md:flex">
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Work </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-[100px] h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Studio </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-28 h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Contact </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-32 h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section1 div -->
+        <div class="w-full">
+            <div class="px-6 md:px-8">
+                <div class="mt-[12vh] pb-10 gap-y-14 md:gap-y-0 flex flex-col-reverse justify-between md:flex-row md:items-end font-s font-Arial">
+    
+                    <h1 class=" text-left text-xl lg:text-[24px]  font-semibold lg:font-bold tracking-tighter leading-[20px] xl:leading-[25px]"
+                    >
+                    Sundown is a multi-disciplinary<br>studio focused on creating<br>unique, end-to-end experiences<br>and environments
+                    </h1>
+        
+                    <h1 class="text-right text-6xl sm:text-[90px] md:text-[112px] lg:text-[132px] xl:text-[152px] 2xl:text-[166px] font-bold   tracking-tighter leading-[50px] sm:leading-[78px] md:leading-[90px] lg:leading-[105px] xl:leading-[122px] 2xl:leading-[132px]"
+                    >SPACES<br>THAT<br>INSPIRE
+                    </h1>
+                </div>
+                <hr class=" border-[0.5px] border-gray-900 opacity-50">           
+            </div>
+            <!-- Div animation -->
+            <div class="relative">
+                <div class="h-72 w-80 sm:h-[280px] sm:w-[400px] md:h-[320px] md:w-[450px] lg:h-[350px] lg:w-[550px] 
+                xl:h-[500px] xl:w-[900px] absolute -right-20 -top-20 bg-gradient-to-r from-[#FE330A] to-[#fa4b05]
+                rounded-l-[50%] blur-lg animate-hero1 "></div>
+                <div class="h-44 w-44 sm:h-56 sm:w-56 md:h-60 md:w-60 lg:h-80 lg:w-80 xl:h-96 xl:w-96 absolute right-[20%] top-0 bg-[#FE330A] rounded-[50%] blur-lg  animate-hero2 "></div>
+                <div class="h-44 w-44 sm:h-56 sm:w-56 md:h-60 md:w-60  lg:h-80 lg:w-80 xl:h-[400px] xl:w-[400px] absolute right-[15%] top-0  bg-[#FE330A] rounded-[50%] blur-lg  animate-hero3 "></div>
+            </div>
+            <!-- video -->
+            <div class="relative aspect-4/5 sm:aspect-video z-10 px-6 md:px-8">
+                <video class=" mt-14 mb-4 h-full w-full rounded-2xl object-cover " autoplay loop muted src="./assets/c72af10b.mp4"></video>
+            </div>
+        </div>
+        
+        <!-- Section2 div  -->
+        <div>
+            <!-- Scrolling text -->
+            <div>
+                <div class=" whitespace-nowrap overflow-x-auto scrollbar-none">
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- part2 -->
+                     <!-- animation div -->
+            <div class="relative -z-10">
+                <div class="absolute -right-10  sm:right-[25%] top-32 sceound-animation-div bg-[#FF8E2D] shadow-lg 
+                shadow-[#FF8E2D] blur-2xl animate-hero4 "></div>
+                <div class="absolute -right-8 sm:right-[23%] top-40 sceound-animation-div bg-[#FE360C] shadow-2xl 
+                shadow-[#FE360C] blur-3xl animate-hero4 "></div>
+            </div>
+              <!-- text img  -->
+            <div class="px-6 md:px-16 mt-16 mb-16 md:flex items-center justify-between">
+                <div class="mb-10 z-10">
+                    <h1 class="part2-h1">We are a group of design-driven, goal-focused creators, producers, and designers who believe that the details make all the difference.</h1>
+                </div>
+                <div class=" w-[300px] md:w-[20vw] z-10">
+                    <img src="./assets/img1.jpg" class="mb-9 rounded-lg">
+                    <p class="text-sm tracking-tighter">We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Section3 div -->
+        <div>
+            <div>
+                <!-- heading -->
+                <div class="px-6 md:px-7 my-8 flex items-center justify-start">
+                    <div class="h-2 w-2 bg-red-600 rounded-[50%] mr-2"></div>
+                    <h1 class="uppercase text-sm">featured projects</h1>
+                </div>
+                <!-- mobile part -->
+                <div class="px-6 md:px-8 lg:hidden">
+                    <!-- 1st div -->
+                    <div class=" sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img2.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">Air Force 12021</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img3.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">SOHO NYC</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">Arc’teryx</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <!-- 2nd div -->
+                    <div class="sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img4.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">Makers Studio HOI</h1>
+                            <h4 class=" text-sm  md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs md:text-sm  text-[#80807f]">Experiential</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <video class="h-full w-full object-cover rounded-lg" autoplay loop muted src="./assets/c72af10b.mp4"></video>
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">SOHO 2023</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">converse</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <!-- 3rd div -->
+                    <div class=" sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">50th Anniversary</h1>
+                            <h4 class=" text-sm  md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <video class="h-full w-full object-cover rounded-lg" autoplay loop muted src="./assets/3fa8f0d4-b71437cc.mp4"></video>
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">NYFW Popup</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">afterpay</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Experiential</h6>
+                        </div>
+                    </div>
+                    <!-- 4th part -->
+                    <div class="mb-10 ">
+                        <div class=" relative aspect-4/5 sm:h-0 sm:pb-2/3 sm:pt2/3 mb-4">
+                            <video class="h-full w-full object-cover rounded-lg sm:absolute sm:inset-0" autoplay loop muted src="./assets/6794612c-4b3b172e.mp4"></video>
+                        </div>
+                        <h1 class=" text-2xl md:text-3xl font-bold">Play New Kidvision</h1>
+                        <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">NIKE</h4>
+                        <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                    </div>
+                </div>
+                <!-- laptop/Desktop part -->
+                <div class="hover-imgComtainer cursor-pointer hidden lg:block">
+                    <!-- 1st div -->
+                    <div class="hover-imgdiv group" data-img="./assets/b6334b0b-5fb61b7a.mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">ConverseSoho</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/b6334b0b-5fb61b7a.mp4" autoplay loop muted></video>
+                        </div> 
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">converse</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 2nd div -->
+                    <div class="hover-imgdiv group" data-img="./assets/img4.jpg">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">MakersStudioHOI</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img"> 
+                            <img class="w-full h-full object-cover rounded-xl" src="./assets/img4.jpg" alt="">
+                        </div> 
+
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">NIKE</h4>
+                            <h6 class="text-xs text-[#80807f]">Experiential</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 3nd div -->
+                    <div class="hover-imgdiv group" data-img="./assets/img5.jpg">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">50thAnniversary</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img"> 
+                            <img class="w-full h-full object-cover rounded-xl" src="./assets/img5.jpg" alt="">
+                        </div> 
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">NIKE</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 4th div -->
+                    <div class="hover-imgdiv group" data-img="./assets/c623c250-fed8f0d2.mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">CapezioNYCFlagship</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/c623c250-fed8f0d2.mp4" autoplay loop muted></video>
+                        </div> 
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">Capezio</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 5th div -->
+                    <div class="hover-imgdiv group" data-img="./assets/3fa8f0d4-b71437cc .mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">NYFWPopup</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/3fa8f0d4-b71437cc .mp4" autoplay loop muted></video>
+                        </div> 
+
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">afterpay</h4>
+                            <h6 class="text-xs text-[#80807f]">Experiential</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 6th div -->
+                    <div class="hover-imgdiv group" data-img="./assets/9f04da42-2e6915b4.mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">CarmeloAnthony7pmInBrooklynSet</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/9f04da42-2e6915b4.mp4" autoplay loop muted></video>
+                        </div> 
+
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">wavesportsentertainment</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 7th div -->
+                    <div class="hover-imgdiv group" data-img="./assets/6794612c-4b3b172e.mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">PlayNewKidvision</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/6794612c-4b3b172e.mp4" autoplay loop muted></video>
+                        </div> 
+
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">NIKE</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                    <!-- 8th div -->
+                    <div class="hover-imgdiv group" data-img="./assets/0c77dcec-67b61593.mp4">
+                        <div class="h-full w-full absolute top-[-100%] left-0 bg-[#FF9831] group-hover:top-0 transition-all duration-200"></div>
+                        <h1 class=" text-5xl xl:text-6xl font-bold relative z-10">KelceSuperBowlParty</h1>
+                        <!-- img/video -->
+                        <div class="fixed-img">
+                            <video class="w-full h-full object-cover rounded-xl" src="./assets/0c77dcec-67b61593.mp4" autoplay loop muted></video>
+                        </div> 
+
+                        <div class="text-right relative z-10">
+                            <h4 class=" text-sm leading-3 uppercase">wavesportsentertainment</h4>
+                            <h6 class="text-xs text-[#80807f]">Experiential</h6>
+                        </div>
+                    </div>
+                    <hr class="hover-imgdiv-hr">
+                </div>
+                <div class="px-6 md:px-8 lg:mt-10 mb-16">
+                    <div class=" px-4 py-2  gap-2 w-fit border-[1px] border-gray-700 rounded-3xl flex items-center justify-between cursor-pointer"> 
+                        <a class=" font-semibold" href="#">All Projects</a>
+                        <i class="text-xl ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section4 div -->
+        <div>
+            <div class="px-6 md:px-8 mb-20">
+                <div class="mb-16  bg-black rounded-xl md:flex items-center justify-between">
+                    <!-- 1st part -->
+                    <div class="h-[50%] w-full md:w-[45%] ">
+                        <div class=" py-16 pl-[7vw] pr-4 md:py-0 max-w-[400px] md:max-w-[500px] 2xl:max-w-[600px]">
+                            <!-- service contant button -->
+                            <div class="mb-10 leading-3">
+                                <div class="info-div flex items-center">
+                                    <div class="info-shp h-11 w-1 md:h-12 xl:h-20 bg-[#FE330A] mr-2"></div>
+                                    <h1 class="info-hdl text-white text-[42px] md:text-5xl xl:text-7xl font-bold ">Design</h1>
+                                </div>
+                                <div class="info-div flex items-center">
+                                    <div class="info-shp h-11 w-1 md:h-12 xl:h-20 bg-[#504A45] mr-2"></div>
+                                    <h1 class="info-hdl text-[#504A45] text-[42px] md:text-5xl xl:text-7xl font-bold ">Project</h1>
+                                </div>
+                                <div class="info-div flex items-center">
+                                    <div class="info-shp h-11 w-1 md:h-12 xl:h-20 bg-[#504A45] mr-2"></div>
+                                    <h1 class="info-hdl text-[#504A45] text-[42px] md:text-5xl xl:text-7xl font-bold ">Execution</h1>
+                                </div>
+                            </div>
+                            <!-- service contant paragrap -->
+                            <div class="mt-6 para">
+                                <p id="para-0" class=" service-contant-paragrap block animate-showpara">Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings.</p>
+                                <p id="para-1" class="service-contant-paragrap hidden animate-showpara">Once we have a design, our production team takes the lead in bringing it to life. We manage all stages of the project, from build specifications and technical drawings to site surveys, vendor management, and 2D & 3D production. We have an extensive network of partners to meet each unique design and project need.</p>
+                                <p id="para-2" class="service-contant-paragrap hidden animate-showpara">We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd part -->
+                    <div class="h-[50%] w-full md:w-[55%]">
+                        <img id="img-0" class="block service-contant-imgs h-full w-full  rounded-lg animate-showpara object-cover" src="./assets/img7.jpg" alt="no img">
+                        <img id="img-1" class="hidden service-contant-imgs h-full w-full  rounded-lg animate-showpara object-cover" src="./assets/img6.jpg" alt="no img">
+                        <img id="img-2" class="hidden service-contant-imgs h-full w-full  rounded-lg animate-showpara object-cover" src="./assets/im8.jpg" alt="no img">
+                    </div>
+                </div>
+                <div>
+                    <div class="my-8 flex items-center justify-start">
+                        <div class="h-2 w-2 bg-red-600 rounded-[50%] mr-2"></div>
+                        <h1 class="uppercase text-sm">WHO WE WORK WITH</h1>
+                    </div>
+                      <div class=" w-full swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img class="swiper-img" src="./assets/img9.svg" alt="no img">
+                            <p class="swiper-para" >Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</p>
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="swiper-img" src="./assets/img10.svg" alt="no img">
+                            <p class="swiper-para" >Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the Country. Cross functional communication and management of third party partners.</p>
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="swiper-img" src="./assets/img11.svg" alt="no img">
+                            <p class="swiper-para" >Production and design along with install oversight and execution support for the SoHo store opening on Broadway St, New York. Also working on creative and production work for a new store opening in Glendale, California.</p>
+                          </div>
+                          <div class="swiper-slide"><img class="swiper-img" src="./assets/img12.svg" alt="no img">
+                            <p class="swiper-para" >Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in Women’s, Men’s and Kid’s zones. Thirty-five (35) additional smaller take-downs in Nordstrom stores across the US. Concept design for Holiday boot customization events in stores across winter 2022.</p></div>
+                          <div class="swiper-slide">
+                            <img class="swiper-img" src="./assets/img13.svg" alt="no img">
+                            <p class="swiper-para" >Creative, Design, and Production Partner for 2023 CES. Scope Included creation of Branding Identity, Assets, and Digital Content, Design, Production design, Production oversight and Installation of client activations for IBM, Delta, Instacart, and more.</p>
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="swiper-img" src="./assets/img14.svg" alt="no img">
+                            <p class="swiper-para" >Creative, Design, and Production Partner for 2022 NY Fashion Week Pop-Up space. In Partnership with B-Reel scope including creation of Final Design, Design Assets, 3D Renders, Production design, Production/Partner oversight and creation of a two (2) story pop-up for Afterpay’s clients such as Crocs, JD Sports, Container Store, & Revolve.</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="h-[90vh] w-full"></div>
+    <div class="h-[90vh] w-full fixed left-0 bottom-0 bg-black  ">
+        <div class="relative h-full w-full">
+            <div class="h-72 w-[550px] sm:h-[350px] sm:w-[700px] md:h-[400px] md:w-[800px] lg:h-[500px] lg:w-[900px] 
+            xl:h-[600px] xl:w-[1500px] absolute -right-60 -top-20 lg:top0 bg-gradient-to-r from-[#FE330A] to-[#fa4b05] blur-3xl  animate-hero6 z-0
+                "></div> 
+            <div class="h-52 w-[300px] sm:h-[100px] sm:w-[400px] md:h-[200px] md:w-[500px] lg:h-[300px] lg:w-[600px] 
+            xl:h-[400px] xl:w-[700px] absolute -right-10 -top-5 lg:top0 bg-gradient-to-r from-[#FE330A] to-[#fa4b05] blur-2xl z-0
+                "></div> 
+            <div class="h-52 w-[300px] sm:h-[100px] sm:w-[400px] md:h-[200px] md:w-[500px] lg:h-[300px] lg:w-[600px] 
+            xl:h-[400px] xl:w-[700px] absolute -left-10 -top-5 lg:top0 bg-gradient-to-r from-[#FE330A] to-[#fa4b05] blur-3xl z-0
+                "></div> 
+            <div class="h-72 w-80 sm:h-[280px] sm:w-[400px] md:h-[320px] md:w-[450px] lg:h-[350px] lg:w-[550px] 
+            xl:h-[500px] xl:w-[1500px] absolute -left-20 -top-20 bg-gradient-to-r from-[#FE330A] to-[#fa4b05] animate-hero5 blur-3xl z-0
+                "></div>
+        </div>
+        <h1 class="absolute bottom-20 translate-x-[50%] right-[50%] text-[18vw]  text-white font-bold uppercase ">Sundown</h1>
+    </div>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
